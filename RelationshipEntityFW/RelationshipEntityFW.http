@@ -1,0 +1,6 @@
+@RelationshipEntityFW_HostAddress = http://localhost:5072
+
+GET {{RelationshipEntityFW_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
