@@ -9,7 +9,9 @@ namespace RelationshipEntityFW.Models
 
 
         // Relationship
-        [JsonIgnore]
-        public List<Student>? Students { get; set; }
+        //public List<Student>? Students { get; set; }
+        //[JsonIgnore]
+        public ICollection<StudentSubject>? StudentSubjects { get; set; }
+
     }
 }

@@ -73,8 +73,8 @@ namespace RelationshipEntityFW.Repo
         }
 
 
-        public async Task<List<Student>> GetStudents() => await _appDbContext.Students.Include(q => q.Subjects).ToListAsync();
-        public async Task<List<Subject>> GetSubjects() => await _appDbContext.Subjects.Include(q => q.Students).ToListAsync();
+        //public async Task<List<Student>> GetStudents() => await _appDbContext.Students.Include(q => q.Subjects).ToListAsync();
+        //public async Task<List<Subject>> GetSubjects() => await _appDbContext.Subjects.Include(q => q.Students).ToListAsync();
 
 
 
